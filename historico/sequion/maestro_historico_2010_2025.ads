@@ -1,1 +1,95 @@
 
+CN MAESTRO ADIS GENERAL - GANADERA EL SEQUION
+CN HISTORICO DESDE 01-01-2010 HASTA 31-12-2025
+CN HISTORICO: C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025
+CN ACTUAL:    C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\ACTUAL
+
+CN ============================================================
+CN BLOQUE 1 - TABLAS HISTORICAS / PUEDEN TENER VARIOS REGISTROS
+CN CONFIGURACION: life=1, arcmode=1, multrec=1
+CN RANGO: 01-01-2010 AL 31-12-2025
+CN ============================================================
+
+f: life=1, arcmode=1, multrec=1;
+
+CN 01 - LACTACIONES
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\LACTACIONES.ads
+SN000001PDCalve\8,20100101,20251231
+RN000001COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,PDCalve\10,LactNo\3,LDim\5,Calf1\10,Calf2\10,DFC\5,FC\5,MC\5,DMC\5,DC\5,LactM\8,M100\8,M200\8,M305\8,CalfNum\3,Calf2Num\3,CalfSex2\3,CalfSex\3,CI\6;
+
+CN 02 - SERVICIOS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\SERVICIOS.ads
+SN000002SrvDat\8,20100101,20251231
+RN000002COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,SrvVAIdCode\10,SrvNumLact\3,SrvAmount\8,SrvCtrlCode\10,SrvCount3Day\8,SrvOffC\10,SrvCom2\30,SrvCount\5,SrvCntLf\5,SrvCost\10,SrvRevCode\10,SrvDim\5,SrvAge\6,SrvTech\10,SrvDat\10,SrvTime\8,SrvSidEffL2\10,SrvAct2hA\10,SrvDiag\30,SrvSire\20;
+
+CN 03 - PARTOS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\PARTOS.ads
+SN000003ClvDat\8,20100101,20251231
+RN000003COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,ClvVAIdCode\10,ClvNumLact\3,ClvCtrlCode\10,ClvOffC\10,ClvCom\30,ClvCom2\30,ClvCount\5,ClvCntLf\5,ClvCost\10,ClvRevCode\10,ClvDim\5,ClvAge\6,ClvTech\10,ClvClvEase\10,ClvClvEaseCod\10,ClvDat\10,ClvTime\8,Clv2Do\10,ClvSidEffL2\10,ClvDiag\30;
+
+CN 04 - ABORTOS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\ABORTOS.ads
+SN000004AbtDat\8,20100101,20251231
+RN000004COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,AbtVAIdCode\10,AbtNumLact\3,AbtCtrlCode\10,AbtOffC\10,AbtCom\30,AbtCom2\30,AbtCount\5,AbtCntLf\5,AbtCost\10,AbtDim\5,AbtAge\6,AbtTech\10,AbtClvEase\10,AbtClvEaseCod\10,AbtDat\10,AbtTime\8,AbtSidEffL2\10,AbtDiag\30;
+
+CN 05 - SECADO
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\SECADO.ads
+SN000005DryDat\8,20100101,20251231
+RN000005COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,DryVAIdCode\10,DryNumLact\3,DryCtrlCode\10,DryOffC\10,DryCom\30,DryCom2\30,DryCount\5,DryCntLf\5,DryCost\10,DryRevCode\10,DryDim\5,DryAge\6,DryTech\10,DryDat\10,DryTime\8,DrySidEffL2\10,DryDiag\30;
+
+CN 06 - ENFERMEDADES
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\ENFERMEDADES.ads
+SN000006VetDat\8,20100101,20251231
+RN000006COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,VetVAIdCode\10,VetNumLact\3,VetAmount\8,VetReason\30,VetCtrlCode\10,VetCount3Day\8,VetActionType\10,VetOffC\10,VetCom\30,VetCom2\30,VetCount\5,VetCntLf\5,VetCost\10,VetDosageUnit\10,VetRecommDose\10,VetDim\5,VetAge\6,VetTech\10,VetDat\10,VetFrequency\10,VetTime\8,Vet2Do\10,VetMetCode\10,VetName\20,VetFullName\30,VetXCode\10,VetAct2hA\10,VetDiag\30;
+
+CN 07 - TEST_PRENEZ
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\TEST_PRENEZ.ads
+SN000007PrgDat\8,20100101,20251231
+RN000007COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,PrgVAIdCode\10,PrgNumLact\3,PrgCtrlCode\10,PrgOffC\10,PrgCom\30,PrgCom2\30,PrgCount\5,PrgCntLf\5,PrgCost\10,PrgRevCode\10,PrgDim\5,PrgAge\6,PrgTech\10,PrgDat\10,PrgTime\8,Prg2Do\10,PrgSidEffL2\10,PrgDiag\30;
+
+
+CN ============================================================
+CN BLOQUE 2 - TABLAS QUE NO DEBEN MULTIPLICAR ANIMAL
+CN CONFIGURACION: life=1, arcmode=1, multrec=0
+CN RANGO: 01-01-2010 AL 31-12-2025
+CN ============================================================
+
+f: life=1, arcmode=1, multrec=0;
+
+CN 08 - HATO_ACTUAL
+CN FOTO ACTUAL - SIN FILTRO DE FECHA
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\ACTUAL\HATO_ACTUAL.ads
+RN000008cow\10,gp\5,PStr\8,lc\3,dim\5,stat\8,statprod\8,bd\6,typ\4,DYP\5,BIRDAT\10,AGEM\8,CLVDAT\10,SrvDat\10,SRVSIRE\20,SrvCount\5,SReg\20,SIRE\20,ASReg1\20,DAMBN\20,DamSire\20,DamBd\10,avmlk\8,ACMLK\8,ACMLK[-1]\8,ACMLK[-2]\8,TestMilk\8,TestMilk[-1]\8,TestMilk[-2]\8,m200\8,m305\8,m365\8,DryDat\10,RcDry\10,DUE\10,EID\20;
+
+CN 09 - SACAS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\SACAS.ads
+SN000009LHDat\8,20100101,20251231
+RN000009COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,BelHeight\8,LHReas\10,LHDat\10,LHType\10,IMBelHeight\8,BUYER\30,CLVDAT\10,BIRDAT\10,VETCOM\30,VETCOM2\30,GP\5;
+
+CN 10 - PROGENIE
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\PROGENIE.ads
+SN000010OffsBirth\8,20100101,20251231
+RN000010COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,OffsBirth\10,OffsETDam\20,OffsETFlag\8,OffsSire\20,Offspring\20,OffsSex\3,OffsValue\10;
+
+CN 11 - NACIMIENTOS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\NACIMIENTOS.ads
+SN000011BirDat\8,20100101,20251231
+RN000011COW\10,LC\3,DIM\5,BD\6,TYP\4,STAT\8,ST\4,GP\5,PStr\8,BirVAIdCode\10,BirNumLact\3,BirCtrlCode\10,BirOffC\10,BirCom\30,BirCom2\30,BirCount\5,BirCntLf\5,BirCost\10,BirRevCode\10,BirDim\5,BirAge\6,BirTech\10,BirClvEase\10,BirClvEaseCod\10,BirDat\10,BirTime\8,BirSidEffL2\10,BirDiag\30;
+
+CN 12 - GENERALES_RECRIA
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\GENERALES_RECRIA.ads
+SN000012HSDate\8,20100101,20251231
+RN000012HSDate\10,HSAnimalCountTotal.0@YF\10,HSCountAnimElig.0@Y\10,HSInsemCountTotal@Y\10,HSInsemCountSuccess@Y\10,HSInsemRateCycle@Y\10,HSInsemSuccess@Y\10,HSPregRateCycle@Y\10,HSCountPreg@Y\10,HSAnimalCountLeft@YF\10;
+
+CN 13 - GENERALES_VACAS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\GENERALES_VACAS.ads
+SN000013HSDate\8,20100101,20251231
+RN000013HSDate\10,HSAnimalCountTotal.0@1p\10,HSAnimalCountMilking.0\10,HSAnimalCountDry.0@1p\10,HSCountAnimElig.0\10,HSInsemCountTotal@1p\10,HSInsemCountSuccess@1p\10,HSInsemRateCycle@1p\10,HSInsemSuccess@1p\10,HSPregRateCycle@1p\10,HSAvgDIMFirstInsem@1p\10,HSAvgDaysOpen@1p\10,HSCountPreg@1p.0\10,HSAvgCalvingInterval\10,HSAvgPeakMilk@1p\10,HSAvgPeakMilkDIM\10,HSAvgDailyMilk\10,HSRollingHerdAvg@1p\10,HSRollingHerdAvg@1\10,HSRollingHerdAvg@2p\10,HSAnimalCountLeft@1P\10;
+
+CN 14 - GENERALES_ESTABLOS
+ON C:\Users\JOSE\Dropbox\JOSE-DP-SHEILA\ADIS_EXPORT\Ganadera El Sequion\HISTORICO_HASTA_2025\GENERALES_ESTABLOS.ads
+SN000014HSDate\8,20100101,20251231
+RN000014HSDate\10,HSAnimalCountTotal.0\10,HSAnimalCountTotal@yf.0\10,HSAnimalCountTotal@1p.0\10,HSAnimalCountTotal@1.0\10,HSAnimalCountTotal@2.0\10,HSAnimalCountTotal@3p.0\10,HSAnimalCountDry.0\10,HSAnimalCountMilking.0\10,HSAnimalCountMilking@1.0\10,HSAnimalCountMilking@2.0\10,HSAnimalCountMilking@3p.0\10,HSAvgDIM.0\10,HSAvgDIM.1@1.0\10,HSAvgDIM.1@2.0\10,HSAvgDIM.1@3p.0\10,HSAvgDIMFirstInsem\10,HSAvgDaysOpen\10,HSAvgCalvingInterval\10,HSAvgCalvingAgeMonths@1\10,HSAnimalCountLeft@1P\10;
+
+TN
+ZN
